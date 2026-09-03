@@ -97,7 +97,7 @@
     <h1>Política de Privacidad de Emerald Ace</h1>
 
     <p class="date">
-      Última actualización: 14 de agosto de 2026
+      Última actualización: 3 de septiembre de 2026
     </p>
 
     <p>
@@ -148,8 +148,10 @@
     <p>
       Emerald Ace puede recopilar o procesar información necesaria para
       proporcionar las funciones del juego, gestionar identificadores de
-      jugadores, rankings, estadísticas, publicidad, análisis de uso,
-      seguridad y funcionamiento técnico.
+      jugadores, estadísticas, publicidad, análisis de uso, seguridad y
+      funcionamiento técnico. Para proporcionar el ranking global, determinados
+      datos del jugador y de sus partidas pueden ser enviados y almacenados en
+      servidores de Firebase.
     </p>
 
     <p>Dependiendo de las funciones utilizadas, esta información puede incluir:</p>
@@ -283,11 +285,12 @@
     <ul>
       <li>Identificadores de jugador.</li>
       <li>Alias o nombre público del jugador.</li>
+      <li>Puntuaciones.</li>
       <li>Victorias.</li>
       <li>Número de movimientos.</li>
       <li>Resultados.</li>
       <li>Estadísticas de juego.</li>
-      <li>Datos necesarios para mantener y mostrar rankings.</li>
+      <li>Datos necesarios para mantener y mostrar el ranking global.</li>
     </ul>
 
     <p>
@@ -296,9 +299,88 @@
     </p>
 
 
+    <!-- RANKING GLOBAL -->
+
+    <h3>3.3 Ranking global</h3>
+
+    <div class="notice">
+      <strong>Información importante sobre el ranking global:</strong>
+
+      <p>
+        Emerald Ace incluye una función de ranking global. Para proporcionar
+        esta función, la aplicación puede enviar y almacenar en servidores de
+        Firebase información relacionada con el jugador y sus partidas.
+      </p>
+
+      <p>La información enviada al ranking global puede incluir:</p>
+
+      <ul>
+        <li>Nombre público, alias o nombre de jugador.</li>
+        <li>Identificador único del jugador.</li>
+        <li>Puntuaciones.</li>
+        <li>Número de victorias.</li>
+        <li>Número de movimientos.</li>
+        <li>Resultados y estadísticas relacionadas con las partidas.</li>
+      </ul>
+
+      <p>
+        Esta información se utiliza para crear, actualizar, ordenar y mostrar
+        el ranking global de Emerald Ace.
+      </p>
+
+      <p>
+        El nombre público o alias del jugador y sus puntuaciones, resultados,
+        posición u otras estadísticas mostradas en el ranking pueden ser
+        visibles para otros jugadores de Emerald Ace.
+      </p>
+
+      <p>
+        La información del ranking se almacena utilizando Firebase Realtime
+        Database, un servicio proporcionado por Google.
+      </p>
+    </div>
+
+    <h3>Global Leaderboard</h3>
+
+    <div class="notice">
+      <p>
+        Emerald Ace includes a global leaderboard feature. To provide this
+        feature, the app may upload and store player and gameplay information
+        on Firebase servers.
+      </p>
+
+      <p>The information uploaded to the global leaderboard may include:</p>
+
+      <ul>
+        <li>Public username, alias, or player name.</li>
+        <li>Unique player identifier.</li>
+        <li>Scores.</li>
+        <li>Number of wins.</li>
+        <li>Number of moves.</li>
+        <li>Game results and related gameplay statistics.</li>
+      </ul>
+
+      <p>
+        This information is used to create, update, rank, and display the
+        Emerald Ace global leaderboard.
+      </p>
+
+      <p>
+        The player's public username or alias and leaderboard scores, results,
+        position, or other displayed statistics may be visible to other
+        Emerald Ace players.
+      </p>
+
+      <p>
+        Leaderboard information is stored using Firebase Realtime Database,
+        a service provided by Google.
+      </p>
+    </div>
+
+
     <!-- ANALYTICS -->
 
-    <h3>3.3 Google Analytics for Firebase</h3>
+    <h3>3.4 Google Analytics for Firebase</h3>
 
     <p>
       Emerald Ace utiliza Google Analytics for Firebase para obtener
@@ -495,9 +577,10 @@
     <ul>
       <li>Proporcionar y mantener Emerald Ace.</li>
       <li>Identificar y autenticar jugadores.</li>
-      <li>Gestionar rankings.</li>
+      <li>Gestionar el ranking global.</li>
+      <li>Enviar y almacenar en Firebase los datos necesarios para el ranking global.</li>
       <li>Guardar estadísticas y resultados.</li>
-      <li>Mostrar posiciones y puntuaciones.</li>
+      <li>Mostrar posiciones, puntuaciones, alias y estadísticas del ranking a otros jugadores.</li>
       <li>Analizar cómo se utiliza el juego.</li>
       <li>Mejorar funciones y experiencia de usuario.</li>
       <li>Detectar y solucionar problemas técnicos.</li>
